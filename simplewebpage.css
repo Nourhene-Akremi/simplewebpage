@@ -1,0 +1,82 @@
+
+body{
+ 
+    background-image: url("coffe.jpg"); 
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top left;
+    height:100%;
+    width: 80%;
+  
+}
+#logo {
+    mix-blend-mode: screen; 
+}
+
+img{
+    width: 10rem;
+    margin:1rem;
+}
+
+.navbar {
+text-decoration:none;
+}
+
+ul {
+    list-style-type: none;
+
+    }
+.thenavbar {
+  display: flex;
+}
+.thenavbar ul {
+    display:flex;
+    justify-content: space-between;
+    gap:2rem;
+}
+
+.thenavbar a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+
+h1 ,p{
+    color: rgba(239, 237, 234, 0.954);
+
+}
+.order{
+    padding:0.5em .6em;
+    margin:1rem 0;
+    background-color:white;  
+}
+
+.order a{
+    color:black;
+    text-decoration:none;
+}
+p{
+    margin: .6rem;
+}
+.order a:visited{
+color:red;
+}
+.order a:visited:hover{
+color:red;
+}
+
+.order:hover{
+
+    border: 2px solid red;
+    border-radius: 20px 2px;
+}
+
+.order a:hover{
+color:rgba(39, 30, 2, 0.963);
+text-transform: uppercase;
+padding:.5rem;
+font-size:1.5rem;
+}
+
+
