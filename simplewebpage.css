@@ -5,10 +5,11 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     background-position: top left;
-    height:100%;
-    width: 80%;
+    height:95vh;
+
   
 }
+
 #logo {
     mix-blend-mode: screen; 
 }
@@ -42,7 +43,7 @@ ul {
 }
 
 
-h1 ,p{
+h1,p{
     color: rgba(239, 237, 234, 0.954);
 
 }
@@ -57,7 +58,7 @@ h1 ,p{
     text-decoration:none;
 }
 p{
-    margin: .6rem;
+    margin-top: 0.3rem;
 }
 .order a:visited{
 color:red;
@@ -79,4 +80,8 @@ padding:.5rem;
 font-size:1.5rem;
 }
 
+.thetext{
+    margin-top: 5rem;
+    margin-left:3rem;
+}
 
